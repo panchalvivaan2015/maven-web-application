@@ -26,6 +26,7 @@ stage ('Build the package'){
 
 }
 
+/*
 stage ('Executing the SonarQube Report'){
 	steps{
 		sh "mvn sonar:sonar"
@@ -46,6 +47,8 @@ stage ('Deploy application into tomcat server'){
 	}	
 	}
 }
+
+*/
 
 }
 
